@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li {
+                float: right;
+                
+            }
+            li a{
+                display: block;
+                padding: 8px;
+            }
+            li a:hover {
+                background-color: rgb(255, 165, 123);
+            }
+            .footer {
+                background: #f2f2f2;
+                flex-shrink: 0;
+                box-sizing: border-box;
+                color: rgba(0,0,0,.54);
+                padding: 15px;
+                white-space: nowrap;
+                display: block;
+            }
+            div{
+                display: block;
+            }
+        </style>    
+    </head>
     <body>
-        <ul>
-            <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-            <li><a href="https://www.google.com.tr/imghp?hl=en&ogbl">Images</a></li>
-            <li><a href="https://www.google.com.tr/intl/en/about/products">Google Apps</a></li>    
-            <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"></a><img src="https://lh3.googleusercontent.com/ogw/ADGmqu_6Jyarv_vSVXYWK2F2pacSYXIg16FczUxb9g_y9A=s32-c-mo" alt=""></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.com.tr/imghp?hl=en&ogbl">Images</a></li>
+                <li><a href="https://www.google.com.tr/intl/en/about/products">Google Apps</a></li>    
+                <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"></a><img src="https://lh3.googleusercontent.com/ogw/ADGmqu_6Jyarv_vSVXYWK2F2pacSYXIg16FczUxb9g_y9A=s32-c-mo" alt=""></li>
+            </ul>
+        </nav>
+        
         <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></div>
-        <div><input type="text">Google</div>
+        <div><input type="text" placeholder="Search"></div>
+        <div c>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="Dice">
+        </div>
+        <div>
+            Google offered in:  
+            <a href="https://www.google.com/setprefs?sig=0_Wl2uXw7MDBi3gnKWY8Kn8gjhrxU%3D&hl=tr&source=homepage&sa=X&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQ2ZgBCA4">Türkçe</a>
+        </div>
+        <footer class="footer">
+            <div>Turkey</div>
+            <ul>
+                <li><a href="/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQkNQCCA8&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-TR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2wCW9oJzvsNy5TI40Vv7gd">About</a></li>
+                <li><a href="/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQkdQCCBA&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_tr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3_X263M5bJUa0ZkLF0jfI8">Advertising</a></li>
+                <li><a href="/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQktQCCBE&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a></li> 
+                <li><a href="#">How Search Works</a></li>
+                <li><a href="#">Privacy</a></li> 
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li> 
+            </ul>
+        </footer>
     </body>
 </html>
