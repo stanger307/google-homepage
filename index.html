@@ -31,6 +31,15 @@
             div{
                 display: block;
             }
+            #root{
+                margin: auto;
+                width: 50%;
+                padding: 10px;
+            }
+            footer{
+                position: absolute;
+                bottom: 0;
+            }
         </style>    
     </head>
     <body>
@@ -42,16 +51,17 @@
                 <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"></a><img src="https://lh3.googleusercontent.com/ogw/ADGmqu_6Jyarv_vSVXYWK2F2pacSYXIg16FczUxb9g_y9A=s32-c-mo" alt=""></li>
             </ul>
         </nav>
-        
-        <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></div>
-        <div><input type="text" placeholder="Search"></div>
-        <div c>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="Dice">
-        </div>
-        <div>
-            Google offered in:  
-            <a href="https://www.google.com/setprefs?sig=0_Wl2uXw7MDBi3gnKWY8Kn8gjhrxU%3D&hl=tr&source=homepage&sa=X&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQ2ZgBCA4">Türkçe</a>
+        <div id="root">
+            <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></div>
+            <div><input type="text" placeholder="Search"></div>
+            <div c>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="Dice">
+            </div>
+            <div>
+                Google offered in:  
+                <a href="https://www.google.com/setprefs?sig=0_Wl2uXw7MDBi3gnKWY8Kn8gjhrxU%3D&hl=tr&source=homepage&sa=X&ved=0ahUKEwjRld6UtJLvAhVJXBoKHXg5ClUQ2ZgBCA4">Türkçe</a>
+            </div>
         </div>
         <footer class="footer">
             <div>Turkey</div>
